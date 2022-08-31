@@ -5,43 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Example</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="app.js"></script>
+ <!--   <link rel="stylesheet" href="styles.css"> -->
+    <script src="/app.js"></script>
 </head>
 <body>
-<!--Navigational Bar-->
-<nav class = "navbar">
-    <div class = "navbar_container">
-        <a href="/" id = "navbar_logo"><i class = "fas fa-gem"></i>Home</a>
-        <div class = "navbar_toggle" id = "mobile-menu">
-            <span class = "bar"></span> 
-            <span class = "bar"></span>
-            <span class = "bar"></span>
-        </div>
-        <ul class = "navbar_menu">
-            <li class = "navbar_menu">
-                <a href = "/animationpage.html" class = "navbar_links">Animation</a>
-            </li>
-            <li class = "navbar_menu">
-                <a href = "/audio.html" class = "navbar_links">Audio</a>
-            </li>
-            <li class = "navbar_menu">
-                <a href = "/random.html" class = "navbar_links">Something random?</a>
-            </li>
-            <li class = "navbar_btn">
-                <a href="/cool.html" class = "button">Something cool</a>
-            </li>
-        </ul>
-    </div>
-</nav>
 <!--Hero Section-->
 <div class="main">
     <div class="main_container">
-        <div class="main_content">
+        <div class ="main-content">
+            <div class="time-function">
+                <button id="timebutton" onclick="gettime()">
+                    Click here for the time.
+                </button>
+                <p id = "time">
 
-        </div>
-        <div class="image_container">
-            <img src="images/pic4resized1.jpg" alt="pic" id ="frontpageimg">
+                </p>
+            </div> 
+            <div class="alert">
+                <button onclick="warning()"> Ooo Button</button>
+            </div>
+            <div class="animate">
+                <input id = "skele" src="images/skelyboi.jpg" type="image" onclick="animateskelyboi()">
+            </div>
+
+
+
+
+
         </div>
     </div>
 </div>
