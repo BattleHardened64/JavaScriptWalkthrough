@@ -1,0 +1,12 @@
+https://stackoverflow.com/questions/1866376/html-play-audio-without-controls
+
+https://www.w3schools.com/tags/att_audio_loop.asp
+
+https://stackoverflow.com/questions/28821902/how-do-you-play-a-video-through-javascript-only
+
+https://www.educative.io/blog/javascript-snake-game-tutorial
+
+https://www.w3schools.com/jsref/met_win_alert.asp
+
+
+

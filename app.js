@@ -38,3 +38,19 @@ else{
 audio.play();
 }
 
+function music(){
+  var elem = document.getElementById("snekmusic");
+  var audio = new Audio("files/among-us-drip-audiotrimmer.mp3");
+  if (typeof audio.loop == 'boolean')
+{
+    audio.loop = true;
+}
+else
+{
+    audio.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+    }, false);
+}
+  audio.play();
+}
