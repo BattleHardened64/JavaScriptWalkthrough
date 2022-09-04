@@ -1,0 +1,1 @@
+//Sample JS file, make a TXT and then change the type to .js
