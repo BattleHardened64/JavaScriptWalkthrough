@@ -2,6 +2,7 @@ function gettime(){
   document.getElementById("time").innerHTML = Date();
 }
 
+
 function warning(){
   alert("you push a button!");
 }
@@ -27,20 +28,32 @@ function animateskelyboi(){
 
 function playmusic(){
 var elem = document.getElementById("music");
-var num = Math.floor(Math.random() * 2);
-if (num === 1)
+
+var num = Math.floor(Math.random() * 3);
+
+if (num >= 1)
 {
   var audio = new Audio("files/among-us-drip-audiotrimmer.mp3");
 }
 else{
   var audio = new Audio("files/bluelobster.mp4");
 }
+
 audio.play();
+
 }
+
+
+
+
+
+
+
 
 function music(){
   var elem = document.getElementById("snekmusic");
   var audio = new Audio("files/among-us-drip-audiotrimmer.mp3");
+  
   if (typeof audio.loop == 'boolean')
 {
     audio.loop = true;
